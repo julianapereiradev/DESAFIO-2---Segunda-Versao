@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(253, 251, 115);
+}
+
+.cabecalho {
+  text-align: center;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.foto img {
+  width: 280px;
+}
+
+.conteudo {
+  width: 72%;
+  background-color: rgb(255, 255, 255);
+  margin: 120px auto;
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.navegacao li {
+  display: inline-block;
+  width: 170px;
+  font-size: 1.2rem;
+}
+
+.navegacao li a:link,
+.navegacao li a:visited {
+  color: rgb(243, 208, 11);
+  text-decoration: none;
+  text-align: center;
+}
+
+.navegacao li a:hover {
+  color: rgb(43, 37, 3);
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 100px;
+  float: left;
+}
+
+.conteudo img {
+  float: left;
+  width: 140px;
+  padding: 10px;
+}
+
+.fonte--media {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.titulo {
+  font-size: 2rem;
+  margin-top: 30px;
+}
