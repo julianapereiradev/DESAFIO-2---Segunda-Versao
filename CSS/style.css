@@ -1,10 +1,13 @@
-body {
-  background-color: rgb(253, 251, 115);
+.background {
+  background-color: rgb(0, 0, 0);
+  background-image: url(../img/background-quimica.png);
+  background-attachment: fixed;
+  color: white;
 }
 
 .cabecalho {
   text-align: center;
-  margin: 100px auto;
+  margin: auto;
   padding: 30px;
 }
 
@@ -13,9 +16,10 @@ body {
 }
 
 .conteudo {
+  color: black;
   width: 72%;
   background-color: rgb(255, 255, 255);
-  margin: 120px auto;
+  margin: auto;
   padding: 50px;
   border-radius: 20px;
 }
@@ -28,13 +32,13 @@ body {
 
 .navegacao li a:link,
 .navegacao li a:visited {
-  color: rgb(243, 208, 11);
+  color: rgb(145, 145, 145);
   text-decoration: none;
   text-align: center;
 }
 
 .navegacao li a:hover {
-  color: rgb(43, 37, 3);
+  color: rgb(20, 20, 20);
   text-decoration: underline;
 }
 
