@@ -74,14 +74,33 @@ body {
   margin-top: 30px;
 }
 
+.footer {
+  position: relative;
+  padding: 100px;
+  margin-top: 100px;
+  background-color: rgb(20, 20, 20);
+  text-align: center;
+}
+
+.fa-linkedin {
+  margin: 20px 10px 20px 10px;
+}
+
+.fa-github {
+  margin: 20px 10px 20px 10px;
+}
+
+.fa-codepen {
+  margin: 20px 10px 20px 10px;
+}
+
 .btn-inicio {
   font-size: 3rem;
-  color: red;
   width: 58px;
   height: 58px;
   line-height: 58px;
   text-align: center;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   border-radius: 50%;
   position: fixed;
   bottom: 20px;
