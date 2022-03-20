@@ -73,3 +73,26 @@ body {
   font-size: 2rem;
   margin-top: 30px;
 }
+
+.btn-inicio {
+  font-size: 3rem;
+  color: red;
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.6;
+}
+
+.btn-inicio:hover {
+  opacity: 1;
+}
+
+.fa-circle-arrow-up {
+  color: rgb(54, 241, 132);
+}
