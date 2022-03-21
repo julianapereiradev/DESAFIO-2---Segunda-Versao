@@ -51,13 +51,13 @@ body {
 
 .navegacao li a:link,
 .navegacao li a:visited {
-  color: rgb(145, 145, 145);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   text-align: center;
 }
 
 .navegacao li a:hover {
-  color: rgb(20, 20, 20);
+  color: #ff7d97;
   text-decoration: underline;
 }
 
@@ -83,24 +83,38 @@ body {
   margin-top: 30px;
 }
 
+.fa-check {
+  color: rgb(192, 119, 214);
+}
+
+.espaco-paragrafo {
+  margin-bottom: 12px;
+}
+
+.fa-book-open-cover,
+.fa-graduation-cap,
+.fa-book {
+  color: #ff7d97;
+}
+
+.fa-envelope,
+.fa-mobile-alt {
+  color: #ffc552;
+}
+
 .footer {
   position: relative;
   padding: 100px;
   margin-top: 80px;
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(14, 13, 13);
   text-align: center;
 }
 
-.fa-linkedin {
-  margin: 20px 10px 20px 10px;
-}
-
-.fa-github {
-  margin: 20px 10px 20px 10px;
-}
-
+.fa-linkedin,
+.fa-github,
 .fa-codepen {
   margin: 20px 10px 20px 10px;
+  color: rgb(201, 201, 201);
 }
 
 .btn-inicio {
@@ -109,7 +123,7 @@ body {
   height: 58px;
   line-height: 58px;
   text-align: center;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   position: fixed;
   bottom: 20px;
@@ -122,5 +136,5 @@ body {
 }
 
 .fa-circle-arrow-up {
-  color: rgb(54, 241, 132);
+  color: rgb(14, 13, 13);
 }
