@@ -138,3 +138,45 @@ body {
 .fa-circle-arrow-up {
   color: rgb(14, 13, 13);
 }
+
+@media (max-width: 720px) {
+  .nome {
+    font-size: 1.9rem;
+  }
+
+  .foto img {
+    width: 200px;
+  }
+
+  .profissao {
+    font-size: 1.3rem;
+  }
+
+  .conteudo {
+    font-size: 1.7rem;
+    line-height: 1.9rem;
+    padding: 30px;
+    border-radius: 20px;
+  }
+
+  .navegacao li {
+    margin-bottom: 20px;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+
+  .fonte--media {
+    font-size: 1.2rem;
+  }
+
+  .titulo {
+    font-size: 1.7rem;
+  }
+
+  .footer {
+    padding: 80px;
+    margin-top: 30px;
+  }
+}
